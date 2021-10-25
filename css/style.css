@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "poppins", sans-serif;
+    font-size: 1rem;
+    background: white;
+    color: rgb(31, 29, 29);
+   overflow-x: hidden; 
+}
+a, a:hover{
+    color: green;
+    font-weight: bold;
+    font-size: larger;
+}
+/* navigation*/
+#header  .navbar-nav .nav-item .nav-link{
+    color: black;
+    text-align: right; 
+}
+#header .navbar-toggler-icons{
+    width: unset;
+    height: unset;
+}
+#carousel{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+  }
+  .carousel-inner{
+    max-height: 38rem!important;
+  }
+  #carousel{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+  }
+  .carousel-inner{
+    max-height: 38rem!important;
+  }
+  /*-- Carousel Content --*/
+  .carousel-caption{
+    position: absolute;
+    top: 54%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+  }
+  .bg-custom{
+  background-color: rgba(0, 0, 0, .4);
+  color: white;
+  }
+  .carousel-caption h1{
+    font-size: 3.8rem;
+    text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+  }
+  .border-primary{
+    border-top: .2rem solid #4981b3!important;
+  }
+  .carousel-caption h3{
+    font-size: 2.2rem;
+    text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 1);
+  }
+  .carousel-caption p{
+    font-size: 2.2rem;
+    text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 1);
+  }
+  .carousel-caption .F-Size{
+    font-size: 1.2rem;
+    text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 1);
+  }
+  .img-resize{
+    height: 6rem;
+  }
+  
+  /*########Products gallery pages styling #########*/
+ .prod-grid{
+    display: grid;
+   place-items: center; 
+    height: auto;
+}
+.link-text{
+    text-decoration: none!important;
+    font-size: large;
+}
+.product .product-image{
+    overflow: hidden;
+    position: relative;
+}
+.product .product-image img{
+    height: auto;
+    width: auto;
+}
+li{
+   list-style-type: none;
+}
+.product .price{
+   color: #c66;
+   font-size: 1rem;
+   font-weight: bold;
+}
+  /*============= FOOTER =============*/
+ footer{
+    background-color: #383838;
+    padding: 1rem 2rem 3rem;
+  } 
+  footer p, footer a,
+  .socket a{
+    color: white;
+    text-decoration: none;
+  }
+ @media screen and (max-width: 990px) {
+ .product{
+     margin: 90px 0 30px;
+ }     
+ }
+ @media screen and (max-width: 1024px) {
+    .product{
+        margin: 90px 0 0 0;
+    }     
+    }
+    @media screen and (max-width: 1024px){
+      .prod-resize{
+        width: auto!important;
+        height: auto!important;
+      }
+    }
+
+    
